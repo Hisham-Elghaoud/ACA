@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    direction: rtl;
+}
+
+@font-face {
+    font-family: Gulf;
+    font-weight: 400;
+    src: url(../../public/assets/fonts/Gulf-bold.ttf);
+}
+
+@font-face {
+    font-family: Gulf;
+    font-weight: 500;
+    src: url(../../public/assets/fonts/Gulf-medium.ttf);
+}
+
+@layer components {
+    .dropDown {
+        opacity: 1 !important;
+        pointer-events: all !important;
+        transform: translateY(0px) !important;
+    }
+ }
